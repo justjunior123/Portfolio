@@ -487,10 +487,13 @@ footer {
 .modal-content {
   width: 500px;
   height: auto;
-  background-color: #005CBE;
+  background-color: #1d242a;
   color: #fff;
   text-align: center;
   position: relative;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: white;
 }
 
 .modal-btn {
@@ -509,8 +512,8 @@ footer {
 input {
   font-weight: bold;
   font-size: 20px;
-  color: black;
-  background-color: #99ccff;
+  color: white;
+  background-color: #6E6867;
   height: 40px;
   width: 70%;
   margin: .7em auto;
@@ -518,8 +521,8 @@ input {
 }
 
 .message {
-  background-color: #99ccff;
-
+  background-color: #6E6867;
+  color: white;
   font-size: 18px;
   width: 80%;
   height: 200px;
