@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link href="css/styles.css?v=1.1" rel="stylesheet" type="text/css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="js/eventListeners.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="Creative inc. logo" class="logo">
+    <nav>
+      <ul>
+        <li>
+          <a href="https://github.com/justjunior89">
+            <img src="img/original.png" class="img-git">
+          </a>
+        </li>
+        <li>
+          <a href="https://youtu.be/b6FgIECrMsc">
+            <img src="img/youtube.png" class="img-youtube">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/juan-soto/">
+            <img src="img/hometab.png" class="img-linkedin">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="home-hero">
+    <div class="container">
+      <h1 class="title">Welcome To My Website
+        <span>for companies who make great stuff</span>
+      </h1>
+
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="home-about">
+
+      <div class="home-about-textbox">
+        <h1>Education</h1>
+        <p>Sit by the fire drink water out of the faucet hide your head under
+        your blanket. Just write some more so that you can see how the box reacts to transitions </p>
+        <p><strong>Warm hot coffee</strong> Man this coffee is really good, I've
+        had too much already today. We are going to change some more stuff so that we can play a little bit. Ok bigger because I want to see how much stuff will actually fit in the box</p>
+      </div>
+
+    </section>
+  </div>
+
+  <section class="portfolio">
+    <h1 class="port-htag">Some of my work<hr/></h1>
+
+    <!-- portfolio item 01 -->
+    <figure class="port-item">
+      <img src="img/portfolio-01.jpg" alt="portfolio item">
+      <figcaption class="port-description">
+        <p>project Title</p>
+        <a href="https://youtu.be/b6FgIECrMsc" class="button button-accent button-small">Project Details</a>
+      </figcaption>
+    </figure>
+
+    <!-- portfolio item 02 -->
+    <figure class="port-item">
+      <img src="img/portfolio-02.jpg" alt="portfolio item">
+      <figcaption class="port-description">
+        <p>project Title</p>
+        <a href="https://favorite-places-app.herokuapp.com/#/" class="button button-accent button-small">Project Details</a>
+      </figcaption>
+    </figure>
+
+    <!-- portfolio item 03 -->
+    <figure class="port-item">
+      <img src="img/portfolio-03.jpg.png" alt="portfolio item">
+      <figcaption class="port-description">
+        <p>project Title</p>
+        <a href="http://hargrove7.wixsite.com/sense-it" class="button button-accent button-small">Project Details</a>
+      </figcaption>
+    </figure>
+
+    <!-- portfolio item 04 -->
+    <figure class="port-item">
+      <img src="img/portfolio-04.jpg" alt="portfolio item">
+      <figcaption class="port-description">
+        <p>project Title</p>
+        <a href="" class="button button-accent button-small">Project Details</a>
+      </figcaption>
+    </figure>
+
+    <!-- portfolio item 05 -->
+    <figure class="port-item">
+      <img src="img/portfolio-05.jpg" alt="portfolio item">
+      <figcaption class="port-description">
+        <p>project Title</p>
+        <a href="" class="button button-accent button-small">Project Details</a>
+      </figcaption>
+    </figure>
+
+    <!-- portfolio item 06 -->
+    <figure class="port-item">
+      <img src="img/portfolio-06.jpg" alt="portfolio item">
+      <figcaption class="port-description">
+        <p>project Title</p>
+        <a href="" class="button button-accent button-small">Project Details</a>
+      </figcaption>
+    </figure>
+
+  </section>
+
+  <section class="call-to-action">
+    <div class="container">
+      <h1 class="title title-call-to-action" id="contact-btn">Like what you see?
+        <span>Contact me</span>
+      </h1>
+      <a href="#" id="button-toggle" class="button button-dark">Contact Me</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="column-3">
+        <p>Footer text will go here and everything else will go be on the
+        right of these paragraphs tags</p>
+      </div>
+
+      <div class="column-1">
+        <ul class="unstyled-list">
+          <li><strong>Careers</strong></li>
+          <li>About</li>
+          <li>Bio</li>
+          <li>Contact</li>
+          <li>Email</li>
+        </ul>
+      </div>
+
+      <div class="column-1">
+        <ul class="unstyled-list">
+          <li><strong>Careers</strong></li>
+          <li>About</li>
+          <li>Bio</li>
+          <li>Contact</li>
+          <li>Email</li>
+        </ul>
+      </div>
+
+      <div class="column-1">
+        <ul class="unstyled-list">
+          <li><strong>Careers</strong></li>
+          <li>About</li>
+          <li>Bio</li>
+          <li>Contact</li>
+          <li>Email</li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Contact Modol----------------------------------------------->
+
+  <div class="bg-modal">
+    <div class="modal-content">
+      <div class="close">+</div>
+      <img src="img/cartoon.jpg" class="img-cartoon">
+
+      <form action="https://formspree.io/bballernumber5@sbcglobal.net" method="POST">
+
+        <input type="email" name="email" class="email" placeholder="Input your email*" required>
+        <br>
+        <input type="text" name="subject" class="subject" placeholder="Subject*" required>
+        <br>
+        <textarea class="message" name="message" placeholder="Message*" required></textarea>
+        <br>
+        <div class="status">
+
+        </div>
+        <button type="submit" class="modal-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
