@@ -117,6 +117,19 @@ p:last-of-type {
 
 }
 
+.ttext {
+  font-size: .75em;
+  font-weight: 200;
+  letter-spacing: 0.225em;
+  text-transform: uppercase;
+}
+
+.p-ed {
+  font-size: .9em;
+  font-weight: 200;
+  letter-spacing: 0.225em;
+  text-transform: uppercase;
+}
 @media (min-width:60rem ) {
 
   p {
@@ -153,13 +166,13 @@ p:last-of-type {
 }
 
 .button-accent {
-  color:#00ff6c;
-  border-color: #00ff6c;
+  color:white;
+  border-color: #DD9B10;
 }
 
 .button-accent:hover,
 .button-accent:focus {
-  background: #00ff6c;
+  background: #DD9B10;
   color: #232323
 
 }
@@ -172,7 +185,7 @@ p:last-of-type {
 .button-dark:hover,
 .button-dark:focus {
   background: #232323;
-  color: #00ff6c
+  color: white;
 
 }
 /* Header============== */
@@ -251,14 +264,14 @@ nav a:focus {
   padding: 4em;
   width: 100vw;
   margin-left: -2.5vw;
-  outline: 2px solid #00ff6c;
+  outline: 2px solid #DD9B10;
   outline-offset: -2.5em;
   color: #FFF;
   position: relative;
 }
 
 .home-about-textbox h1 {
-  color: #00ff6C;
+  color: #DD9B10;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -269,7 +282,7 @@ nav a:focus {
 }
 
 @media (min-width: 25rem) {
-  h1 {
+  h1,h2 {
     font-size: 2rem;
   }
 
@@ -284,7 +297,7 @@ nav a:focus {
 }
 
 @media (min-width: 60rem) {
-  h1 {
+  h1,h2 {
     font-size: 2.5rem;
   }
 
@@ -384,8 +397,17 @@ hr:after {
 /* Call to action --------------------------------------*/
 
 .call-to-action {
-  background-color: #00ff6c;
+  background-color: #DD9B10;
   padding: 6em 0;
+}
+
+.about-div {
+  position: flex;
+  text
+}
+
+.about {
+  font-size: 3em;
 }
 
 /* Footer ------------------------------------------- */
@@ -401,6 +423,19 @@ footer {
   font-size: 23px;
   font-weight: 800;
   letter-spacing: 0.225em;
+  text-transform: uppercase;
+}
+
+#footer .copyright li {
+  transform: translateY(3em);
+  text-align: center;
+  position: relative;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
+  letter-spacing: 0.225em;
+  list-style: none;
+  padding-top: 5em;
   text-transform: uppercase;
 }
 
@@ -451,26 +486,6 @@ footer {
   border-radius: 50%;
 }
 
-.img-html {
-  height: auto;
-  width: auto;
-}
-
-.img-css {
-  height: auto;
-  width: auto;
-}
-
-.img-gitt {
-  height: auto;
-  width: auto;
-}
-
-.img-javascript {
-  height: 150px;
-  width: 10px;
-}
-
 /* Modal ---------------------------------------------*/
 
 .bg-modal {
@@ -507,6 +522,10 @@ footer {
 	margin-top: 10px;
 	display: inline-block;
   font-size: 13px;
+}
+
+::placeholder {
+  color: white;
 }
 
 input {
