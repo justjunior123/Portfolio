@@ -261,7 +261,7 @@ nav a:focus {
 
 .home-about-textbox {
   background-color: #232323;
-  padding: 4em;
+  padding: 3.8em;
   width: 100vw;
   margin-left: -2.5vw;
   outline: 2px solid #DD9B10;
@@ -281,13 +281,21 @@ nav a:focus {
 
 }
 
+@media (min-width: 10rem) {
+  h1 {
+    font-size: 1.9rem;
+  }
+  .home-about-textbox {
+    padding: 5.5em;
+  }
+
 @media (min-width: 25rem) {
-  h1,h2 {
+  h1 {
     font-size: 2rem;
   }
 
   .home-about-textbox {
-    padding: 5.5em;
+    padding: 5.9em;
   }
 
   .home-about-textbox h1 {
@@ -297,7 +305,7 @@ nav a:focus {
 }
 
 @media (min-width: 60rem) {
-  h1,h2 {
+  h1 {
     font-size: 2.5rem;
   }
 
