@@ -421,6 +421,10 @@ hr:after {
   padding-top: 1.3rem;
 }
 
+.about-p {
+  text-align: left;
+}
+
 /* Footer ------------------------------------------- */
 
 footer {
