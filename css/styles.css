@@ -72,7 +72,7 @@ footer::after {
 
 /* typography */
 
-h1 {
+h1,h2 {
   font-weight: 300;
   font-size: 2.5rem;
   margin-top: 0;
@@ -411,11 +411,14 @@ hr:after {
 
 .about-div {
   position: flex;
-  text
 }
 
-.about {
+.about-h2,.about-h1 {
   font-size: 3em;
+}
+
+.about-h2 {
+  padding-top: 1.3rem;
 }
 
 /* Footer ------------------------------------------- */
