@@ -10,10 +10,10 @@ $(document).ready(function(){
     statusElm.empty();
 
     if (email.length > 5 && email.includes('@') && email.includes('.')){
-      console.log('<div>Email is valid</div>');
+      statusElm.append('<div>Email is valid</div>');
     } else {
       event.preventDefault();
-      console.log('<div>email is not valid</div>');
+      statusElm.append('<div>email is not valid</div>');
     }
 
     if (subject.length >= 2) {
