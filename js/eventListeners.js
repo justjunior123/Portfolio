@@ -1,7 +1,7 @@
 // Contact Modal open and close ----------------------------------------
 // critical: window.onload executes the script when the DOM is ready.
-
-window.onload = function () {
+//
+window.onload = () => {
 
   var open = document.getElementById('button-toggle');
   open.addEventListener("click", function(){
