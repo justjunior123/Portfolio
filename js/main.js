@@ -1,3 +1,5 @@
+// Code for the modal that will be used in the contact form
+// Basic error handeling that will give an alert message if input is wrong
 console.log('We loaded');
 $(document).ready(function(){
   $('.modal-btn').click(function(event){
