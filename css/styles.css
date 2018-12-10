@@ -17,7 +17,7 @@ img {
 /* Particles ---------- */
 
   #particles-js {
-  position: absolute;
+  position: absolute !important;
   height: 100%;
   width: 100%;
   z-index: 1;
