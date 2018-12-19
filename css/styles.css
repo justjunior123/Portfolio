@@ -199,6 +199,20 @@ p:last-of-type {
   color: white;
 
 }
+
+.button-download {
+  background: #DD9B10;
+  color: black;
+  border-color: #232323;
+}
+
+.button-download:hover {
+  background: #232323;
+  color: white;
+  border-color: #232323;
+}
+
+
 /* Header============== */
 
 header {
