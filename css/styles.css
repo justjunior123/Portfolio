@@ -197,6 +197,7 @@ p:last-of-type {
 .button-dark:focus {
   background: #232323;
   color: white;
+  cursor: pointer;
 
 }
 
@@ -204,6 +205,7 @@ p:last-of-type {
   background: #DD9B10;
   color: black;
   border-color: #232323;
+  cursor: pointer;
 }
 
 .button-download:hover {
