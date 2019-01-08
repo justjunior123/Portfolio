@@ -24,7 +24,9 @@ window.onload = () => {
   });
 
   $(document).ready(function(){
+
     $('body').on('click',function(e){
+      window.location.reload();
       const target = $(e.target).attr('id');
       console.log(target);
       console.log(target === 'button-toggle');
