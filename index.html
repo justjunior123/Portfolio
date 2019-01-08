@@ -26,8 +26,15 @@
   <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
+  <!-- insert loader div -->
   <header>
     <!-- <img src="img/mylogo.png" alt=".....working on it" class="logo"> -->
+    <div class="insert">
+      <div class="load-screen">
+        <div class="loader"></div>
+      </div>
+    </div>
+
     <nav>
       <ul>
         <li>
@@ -92,23 +99,22 @@
         <a href="https://youtu.be/b6FgIECrMsc" class="button button-accent button-small">Live Interview</a>
       </figcaption>
     </figure>
-
+    <!-- https://chatter-box-ap.herokuapp.com -->
     <!-- portfolio item 02 -->
     <figure class="port-item">
       <img src="img/chatboxlogo.png" alt="portfolio item">
       <figcaption class="port-description">
         <p>Chatter Box!</p>
-        <a href="https://chatter-box-ap.herokuapp.com" class="button button-accent button-small">Live Chat App</a>
+        <a href='https://chatter-box-ap.herokuapp.com' id="load-chatter" class="button button-accent button-small">Live Chat App</a>
       </figcaption>
     </figure>
-
     <!-- portfolio item 03 -->
 
     <figure class="port-item">
       <img src="img/tetrislogo.png" alt="Javascript game made with vanilla javascript">
       <figcaption class="port-description">
         <p>Javascript Tetris!</p>
-        <a href="https://tetrisgame-app.herokuapp.com/canvas.html" class="button button-accent button-small">Live Game</a>
+        <a href="https://tetrisgame-app.herokuapp.com/canvas.html" id="load-tetris" class="button button-accent button-small">Live Game</a>
       </figcaption>
     </figure>
 
@@ -118,7 +124,7 @@
       <img src="img/weatherapplogo.png" alt="React application utilizing 3rd party API">
       <figcaption class="port-description">
         <p>Check Your Local Weather!</p>
-        <a href="https://my-weather-appl.herokuapp.com/" class="button button-accent button-small">Live App</a>
+        <a href="https://my-weather-appl.herokuapp.com/" id="load-weather" class="button button-accent button-small">Live App</a>
       </figcaption>
     </figure>
 
@@ -128,7 +134,7 @@
       <img src="img/favoriteplaceslogo.png" alt="Fullstack web-application written with React-Redux and Nodejs">
       <figcaption class="port-description">
         <p>Favorite Places!</p>
-        <a href="https://favorite-places-app.herokuapp.com/#/" class="button button-accent button-small">Fullstack React/Rails App</a>
+        <a href="https://favorite-places-app.herokuapp.com/#/" id="load-favorite" class="button button-accent button-small">Fullstack React/Rails App</a>
       </figcaption>
     </figure>
 
@@ -236,7 +242,7 @@
     </div>
   </footer>
 
-  <!-- Contact Modol----------------------------------------------->
+  <!-- Contact Modal----------------------------------------------->
 
   <div class="bg-modal">
     <div class="modal-content">
@@ -258,5 +264,13 @@
       </form>
     </div>
   </div>
+
+  <!-- Loader Modal----------------------------------------------->
+<!-- class="loader-toggle" -->
+  <!-- <div class="load-screen"> -->
+    <!-- <div id="loading">
+      WORK YOU LITTLE THING
+    </div> -->
+  <!-- </div> -->
 </body>
 </html>
