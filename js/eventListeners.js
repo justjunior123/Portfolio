@@ -2,6 +2,7 @@
 // critical: window.onload executes the script when the DOM is ready.
 //
 window.onload = () => {
+  // TODO: if the load screen is already loaded remove it
   const position = $('.load-screen').position();
   const clone = $('.load-screen').clone();
 
