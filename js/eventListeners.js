@@ -31,7 +31,8 @@ window.onload = () => {
       console.log(target);
       console.log(target === 'button-toggle');
       if (target === 'load-chatter' || target === 'load-tetris'||
-       target === 'load-weather' || target === 'load-favorite'
+       target === 'load-weather' || target === 'load-favorite' ||
+       target === 'load-timzam'
       ) {
         loader();
         setTimeout(1000);
