@@ -2,7 +2,7 @@
 // critical: window.onload executes the script when the DOM is ready.
 //
 window.onload = () => {
-  // TODO: if the load screen is already loaded remove it
+  // TODO: if the load screen is already loaded remove it!!!!!!!!!!!!!!!
   const position = $('.load-screen').position();
   const clone = $('.load-screen').clone();
 
@@ -34,6 +34,7 @@ window.onload = () => {
        target === 'load-weather' || target === 'load-favorite' ||
        target === 'load-timzam'
       ) {
+        console.log(target);
         loader();
         setTimeout(1000);
         scroll(0,position.top);
