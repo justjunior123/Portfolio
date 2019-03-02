@@ -180,14 +180,14 @@ p:last-of-type {
   /* Changed accent from white to black after cube implementation */
   /* color:white; */
   /* Button changed to black for cube */
-  background-color: black;
-  color: #DD9B10 !important;
+  background-color: white;
+  color: black !important;
   border-color: #DD9B10;
 }
 
 .button-accent:hover,
 .button-accent:focus {
-  background: white;
+  background: #DD9B10;
   color: #232323
 
 }
