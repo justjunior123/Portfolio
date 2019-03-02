@@ -21,9 +21,43 @@
 
   <!-- ********************************************************* -->
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <!-- *****************SWIPER CSS****************************** -->
+  <link rel="stylesheet" href="css/swiper.css">
+  <!-- ********************************************************* -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
   <script type="text/javascript" src="js/eventListeners.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+
+  <!-- Demo styles -->
+    <!-- <style>
+      html, body {
+        position: relative;
+        height: 100%;
+      }
+      body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+      }
+      .swiper-container {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -150px;
+        margin-top: -150px;
+      }
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+      }
+    </style> -->
+
+
 </head>
 <body>
   <!-- insert loader div -->
@@ -89,36 +123,187 @@
   </div>
 
   <section class="portfolio">
-    <h1 class="port-htag">Some of my work<hr/></h1>
+    <div><h1 class="port-htag">Some of my work<hr/></h1></div>
+    <br>
+    <br>
+<!-- All listed portfolio items are below **************************** -->
+<!-- Swiper -->
 
+
+<!-- Demo styles -->
+  <!-- <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -150px;
+      margin-top: -150px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+  </style> -->
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <!-- <figure class="port-item"> -->
+          <img src="img/port-01.jpg" alt="Video interview for an upcoming book.">
+          <!-- <figcaption class="port-description"> -->
+          <div>
+            <!-- <figcaption class="port-description"> -->
+            <p>"Teachin' It!"</p>
+            <a href="https://youtu.be/b6FgIECrMsc" class="button button-accent button-small">Live Interview</a>
+            <!-- </figcaption> -->
+          </div>
+          <!-- </figcaption> -->
+        <!-- </figure> -->
+      </div>
+      <div class="swiper-slide">
+        <!-- <figure class="port-item"> -->
+          <img src="img/timzamlogo.png" alt="Javascript game made with vanilla javascript">
+          <!-- <figcaption class="port-description"> -->
+          <div>
+            <!-- <figcaption class="port-description"> -->
+            <p>Timzam!</p>
+            <a href="https://timzam.herokuapp.com/" id="load-timzam" class="button button-accent button-small">Live App</a>
+            <!-- </figcaption> -->
+          </div>
+          <!-- </figcaption>
+        </figure> -->
+      </div>
+      <div class="swiper-slide">
+        <!-- <figure class="port-item"> -->
+          <img src="img/chatboxlogo.png" alt="portfolio item">
+          <!-- <figcaption class="port-description"> -->
+          <div>
+            <!-- <figcaption class="port-description"> -->
+            <p>Chatter Box!</p>
+            <a href="https://chatter-box-ap.herokuapp.com" id="load-chatter" class="button button-accent button-small">Live Chat App</a>
+          <!-- </figcaption>/ -->
+          </div>
+          <!-- </figcaption> -->
+        <!-- </figure> -->
+      </div>
+      <div class="swiper-slide">
+        <!-- <figure class="port-item"> -->
+          <img src="img/weatherapplogo.png" alt="React application utilizing 3rd party API">
+          <!-- <figcaption class="port-description"> -->
+          <div>
+            <!-- <figcaption class="port-description"> -->
+            <p>Check Your Local Weather!</p>
+            <a href="https://my-weather-appl.herokuapp.com/" id="load-weather" class="button button-accent button-small">Live App</a>
+            <!-- </figcaption> -->
+          </div>
+          <!-- </figcaption>
+        </figure> -->
+      </div>
+      <div class="swiper-slide">
+        <!-- <figure class="port-item"> -->
+          <img src="img/favoriteplaceslogo.png" alt="Fullstack web-application written with React-Redux and Nodejs">
+          <!-- <figcaption class="port-description"> -->
+          <div>
+            <!-- <figcaption class="port-description"> -->
+            <p>Favorite Places!</p>
+            <a href="https://favorite-places-app.herokuapp.com/#/" id="load-favorite" class="button button-accent button-small">Fullstack React/Rails App</a>
+            <!-- </figcaption> -->
+          </div>
+          <!-- </figcaption>
+        </figure> -->
+      </div>
+      <div class="swiper-slide">
+        <!-- <figure class="port-item"> -->
+          <img src="img/senseitlogo.png" alt="Research project utilizing iOS's Siri as a guide for the visually impaired.">
+          <!-- <figcaption class="port-description"> -->
+          <div>
+            <!-- <figcaption class="port-description"> -->
+            <p>Sense-It!</p>
+            <a href="http://hargrove7.wixsite.com/sense-it" class="button button-accent button-small">iOS/Hardware App</a>
+            <!-- </figcaption> -->
+          </div>
+          <!-- </figcaption> -->
+        <!-- </figure> -->
+
+      </div>
+      <div class="swiper-slide">
+        <!-- <figure class="port-item"> -->
+          <img src="img/tetrislogo.png" alt="Javascript game made with vanilla javascript">
+          <!-- <figcaption class="port-description"> -->
+          <div>
+            <p>Javascript Tetris!</p>
+            <a href="https://tetrisgame-app.herokuapp.com/canvas.html" id="load-tetris" class="button button-accent button-small">Live Game</a>
+          </div>
+          <!-- </figcaption> -->
+        <!-- </figure> -->
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- Swiper JS -->
+  <script src="./js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper*********************************** -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+  <!--Portfolio-****************************************************  -->
     <!-- portfolio item 01 -->
-    <figure class="port-item">
+    <!-- <figure class="port-item">
       <img src="img/port-01.jpg" alt="Video interview for an upcoming book.">
       <figcaption class="port-description">
         <p>"Teachin' It!"</p>
         <a href="https://youtu.be/b6FgIECrMsc" class="button button-accent button-small">Live Interview</a>
       </figcaption>
-    </figure>
+    </figure> -->
     <!-- https://chatter-box-ap.herokuapp.com -->
 
     <!-- portfolio item 02 -->
-    <figure class="port-item">
+    <!-- <figure class="port-item">
       <img src="img/timzamlogo.png" alt="Javascript game made with vanilla javascript">
       <figcaption class="port-description">
         <p>Timzam!</p>
         <a href="https://timzam.herokuapp.com/" id="load-timzam" class="button button-accent button-small">Live App</a>
       </figcaption>
-    </figure>
+    </figure> -->
 
     <!-- portfolio item 03 -->
-    <figure class="port-item">
+    <!-- <figure class="port-item">
       <img src="img/chatboxlogo.png" alt="portfolio item">
       <figcaption class="port-description">
         <p>Chatter Box!</p>
         <a href="https://chatter-box-ap.herokuapp.com" id="load-chatter" class="button button-accent button-small">Live Chat App</a>
       </figcaption>
-    </figure>
-    <!-- portfolio item 03 -->
+    </figure> -->
+    <!-- portfolio item 03 Dont uncomment -->
 
     <!-- <figure class="port-item">
       <img src="img/tetrislogo.png" alt="Javascript game made with vanilla javascript">
@@ -130,33 +315,33 @@
 
     <!-- portfolio item 04 -->
 
-    <figure class="port-item">
+    <!-- <figure class="port-item">
       <img src="img/weatherapplogo.png" alt="React application utilizing 3rd party API">
       <figcaption class="port-description">
         <p>Check Your Local Weather!</p>
         <a href="https://my-weather-appl.herokuapp.com/" id="load-weather" class="button button-accent button-small">Live App</a>
       </figcaption>
-    </figure>
+    </figure> -->
 
     <!-- portfolio item 05 -->
 
-    <figure class="port-item">
+    <!-- <figure class="port-item">
       <img src="img/favoriteplaceslogo.png" alt="Fullstack web-application written with React-Redux and Nodejs">
       <figcaption class="port-description">
         <p>Favorite Places!</p>
         <a href="https://favorite-places-app.herokuapp.com/#/" id="load-favorite" class="button button-accent button-small">Fullstack React/Rails App</a>
       </figcaption>
-    </figure>
+    </figure> -->
 
     <!-- portfolio item 06 -->
 
-    <figure class="port-item">
+    <!-- <figure class="port-item">
       <img src="img/senseitlogo.png" alt="Research project utilizing iOS's Siri as a guide for the visually impaired.">
       <figcaption class="port-description">
         <p>Sense-It!</p>
         <a href="http://hargrove7.wixsite.com/sense-it" class="button button-accent button-small">iOS/Hardware App</a>
       </figcaption>
-    </figure>
+    </figure> -->
 
   </section>
 
@@ -275,12 +460,5 @@
     </div>
   </div>
 
-  <!-- Loader Modal----------------------------------------------->
-<!-- class="loader-toggle" -->
-  <!-- <div class="load-screen"> -->
-    <!-- <div id="loading">
-      WORK YOU LITTLE THING
-    </div> -->
-  <!-- </div> -->
 </body>
 </html>
