@@ -180,7 +180,7 @@ p:last-of-type {
   /* Changed accent from white to black after cube implementation */
   /* color:white; */
   /* Button changed to black for cube */
-  color: black;
+  color: black !important;
   border-color: #DD9B10;
 }
 
