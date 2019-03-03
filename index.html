@@ -186,8 +186,15 @@
             <a href="https://tetrisgame-app.herokuapp.com/canvas.html" id="load-tetris" class="button button-accent button-small">Live Game</a>
           </div>
       </div>
-
     </div>
+
+    <!-- Add Arrows -->
+    <br>
+    
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+  <!-- </div> -->
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   <!-- Swiper JS -->
@@ -203,6 +210,10 @@
         slideShadows: true,
         shadowOffset: 20,
         shadowScale: 0.94,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
       pagination: {
         el: '.swiper-pagination',
