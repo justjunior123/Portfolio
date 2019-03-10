@@ -142,11 +142,11 @@ p:last-of-type {
   text-transform: uppercase;
 }
 
-@media (min-width:40rem ) {
+/* @media (min-width:40rem ) {
   .p-ed {
     font-size: .7em !important;
   }
-}
+} */
 
 @media (min-width:60rem ) {
 
@@ -330,6 +330,11 @@ nav a:focus {
   .home-about-textbox {
     padding: 5.5em;
   }
+  .p-ed {
+    font-size: .7em !important;
+  }
+
+}
 
 @media (min-width: 25rem) {
   h1 {
