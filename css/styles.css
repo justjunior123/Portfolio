@@ -141,6 +141,13 @@ p:last-of-type {
   letter-spacing: 0.225em;
   text-transform: uppercase;
 }
+
+@media (min-width:10rem ) {
+  .p-ed {
+    font-size: .7em;
+  }
+}
+
 @media (min-width:60rem ) {
 
   p {
