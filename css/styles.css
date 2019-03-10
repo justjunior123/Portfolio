@@ -144,7 +144,7 @@ p:last-of-type {
 
 @media (min-width:10rem ) {
   .p-ed {
-    font-size: .7em;
+    font-size: .7em !important;
   }
 }
 
