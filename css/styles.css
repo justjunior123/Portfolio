@@ -142,7 +142,7 @@ p:last-of-type {
   text-transform: uppercase;
 }
 
-@media (min-width:25rem ) {
+@media (min-width:40rem ) {
   .p-ed {
     font-size: .7em !important;
   }
