@@ -142,11 +142,11 @@ p:last-of-type {
   text-transform: uppercase;
 }
 
-/* @media (min-width:40rem ) {
-  .p-ed {
-    font-size: .7em !important;
-  }
-} */
+.quote {
+  font-size: 1.7em;
+  transform: translateY(-40px);
+  font-family: 'Indie Flower', cursive;
+}
 
 @media (min-width:60rem ) {
 
