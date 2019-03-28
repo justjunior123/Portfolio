@@ -148,6 +148,10 @@ p:last-of-type {
   font-family: 'Indie Flower', cursive;
 }
 
+#creator {
+  padding-bottom: 50px;
+}
+
 @media (min-width:60rem ) {
 
   p {
