@@ -149,7 +149,7 @@ p:last-of-type {
 }
 
 #creator {
-  padding-bottom: 50px;
+  padding-bottom: 50px !important;
 }
 
 @media (min-width:60rem ) {
