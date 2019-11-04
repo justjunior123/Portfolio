@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Photography</title>
+
+  <!-- ********************************************************* -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+  <link rel="manifest" href="../img/site.webmanifest">
+
+  <!-- ********************************************************* -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131139926-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-131139926-1');
+</script>
+
+
+  <!-- ********************************************************* -->
+  <link href="../css/styles.css" rel="stylesheet" type="text/css">
+  <!-- *****************SWIPER CSS****************************** -->
+  <link rel="stylesheet" href="../css/swiper.css">
+
+  <style>
+
+    .title {
+      font-size: 50px;
+      color: white;
+      transform: translate(5%,-50%);
+    }
+    /* .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    } */
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 430px;
+      height: 300px;
+    }
+    .home-hero {
+      background-image: url(../img/blue.jpeg);
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      position: absolute;
+      top: 80%;
+    }
+
+    .swiper-pagination {
+      top: 110%;
+    }
+
+    .rotateimg90 {
+      -webkit-transform:rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+
+  </style>
+
+  <!-- ********************************************************* -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="../js/eventListeners.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script> -->
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+</head>
+<body>
+  <div id="overlay"></div>
+  <section class="home-hero">
+      <h1 class="title"> Amateur Hour</h1>
+  </section>
+  <!-- Swiper -->
+  <footer>
+
+  <div class="container">
+    <div class="about-div">
+      <p class="quote">
+        "Being creative to my core,
+        photography has been another outlet aside from tech, for me to express myself.
+        Here are some moments captured during my world travels."
+      </p>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../img/mexico.jpeg" alt="Fullstack web-application written with React-Redux and Nodejs" class="rotateimg90">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/angel.jpeg" alt="Fullstack web-application written with React-Redux and Nodejs" class="rotateimg90">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/clouds.jpeg" alt="Fullstack web-application written with React-Redux and Nodejs" class="rotateimg90">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/lighthouse.jpeg" alt="Fullstack web-application written with React-Redux and Nodejs">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/capri2.jpeg" alt="Fullstack web-application written with React-Redux and Nodejs">
+        </div>
+        <div class="swiper-slide">
+          <img src="../img/views.jpeg" alt="Fullstack web-application written with React-Redux and Nodejs">
+        </div>
+
+      </div>
+
+      <!-- Add Arrows -->
+      <br>
+      <br>
+      <br>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 70,
+          stretch: 100,
+          depth: 1000,
+          modifier: 1,
+          slideShadows : true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
+  </div>
+  </footer>
+</body>
+</html>

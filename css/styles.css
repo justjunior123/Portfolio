@@ -40,6 +40,34 @@ footer::after {
   clear: both;
 }
 
+/* Overlay effect */
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute !important;
+  background-color: rgba(0,0,0,0.7);
+}
+
+@media (min-width: 20em) {
+  #overlay {
+    height: 67%;
+    width: 100%;
+    position: absolute !important;
+    background-color: rgba(0,0,0,0.7);
+  }
+}
+
+@media (min-width: 60em) {
+  #overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute !important;
+    background-color: rgba(0,0,0,0.7);
+  }
+}
+
+
 /* Column System */
 
 [class^=column-] {
