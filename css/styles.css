@@ -47,14 +47,16 @@ footer::after {
   width: 100%;
   position: absolute !important;
   background-color: rgba(0,0,0,0.7);
+  z-index: 0;
 }
 
 @media (min-width: 20em) {
   #overlay {
-    height: 67%;
+    height: 67.5%;
     width: 100%;
     position: absolute !important;
     background-color: rgba(0,0,0,0.7);
+    z-index: 0;
   }
 }
 
@@ -64,6 +66,7 @@ footer::after {
     width: 100%;
     position: absolute !important;
     background-color: rgba(0,0,0,0.7);
+    z-index: 0;
   }
 }
 
