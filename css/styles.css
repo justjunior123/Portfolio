@@ -42,7 +42,7 @@ footer::after {
 
 /* Overlay effect */
 
-#overlay {
+/* #overlay {
   height: 100%;
   width: 100%;
   position: absolute !important;
@@ -68,7 +68,7 @@ footer::after {
     background-color: rgba(0,0,0,0.7);
     z-index: 0;
   }
-}
+} */
 
 
 /* Column System */
