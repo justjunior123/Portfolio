@@ -43,11 +43,17 @@
       padding-bottom: 50px;
     } */
     .swiper-slide {
-      background-position: center;
-      background-size: cover;
       width: 430px;
       height: 300px;
     }
+
+    @media (min-width: 20em) {
+      .swiper-slide {
+        width: 320px;
+        height: 100%;
+      }
+    }
+
     .home-hero {
       background-image: url(../img/blue.jpeg);
     }
